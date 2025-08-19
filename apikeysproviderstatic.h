@@ -40,9 +40,9 @@ class ApiKeysProviderStatic : public ApiKeysProvider
     Q_INTERFACES(ApiKeysProvider)
 public:
     explicit ApiKeysProviderStatic();
-    ~ApiKeysProviderStatic() = default;
+    ~ApiKeysProviderStatic() override = default;
 
-    QHash<QString, ApiKey> apiKeys() const;
+    QHash<QString, ApiKey> apiKeys() const override;
 
 };
 

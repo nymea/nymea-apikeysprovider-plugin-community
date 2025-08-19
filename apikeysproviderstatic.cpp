@@ -1,6 +1,6 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 *
-* Copyright 2013 - 2024, nymea GmbH
+* Copyright 2013 - 2025, nymea GmbH
 * Contact: contact@nymea.io
 *
 * This file is part of nymea.
@@ -29,13 +29,12 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #include "apikeysproviderstatic.h"
-
-#include "loggingcategories.h"
-NYMEA_LOGGING_CATEGORY(dcApiKeysProviderStatic, "ApiKeysProviderStatic")
-
 #include "apikeys.h"
 
 #include <QJsonDocument>
+
+#include <loggingcategories.h>
+NYMEA_LOGGING_CATEGORY(dcApiKeysProviderStatic, "ApiKeysProviderStatic")
 
 ApiKeysProviderStatic::ApiKeysProviderStatic()
 {
