@@ -43,6 +43,13 @@ Then build this project in a normal (qmake) way:
 The resulting plugin file can be installed systemwide into $LIBDIR/nymea/apikeyproviders
 or by pointing nymea to it using the NYMEA_APIKEYS_PLUGINS_PATH environment variable.
 
+## License
+
+nymea-apikeysprovider-plugin-community is licensed under the GNU General Public License
+version 3 or (at your option) any later version. Copyright (C) 2013-2024,
+nymea GmbH and (C) 2024-2025, chargebyte austria GmbH. The full license text is available
+from https://www.gnu.org/licenses/gpl-3.0.html.
+
 ## Disclaimer
 
 We are aware that security of this is mediocre at best and thus this plugin should only
