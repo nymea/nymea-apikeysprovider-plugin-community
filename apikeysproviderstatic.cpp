@@ -3,7 +3,7 @@
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 *
 * Copyright (C) 2013 - 2024, nymea GmbH
-* Copyright (C) 2024 - 2025, chargebyte austria GmbH
+* Copyright (C) 2024 - 2026, chargebyte austria GmbH
 *
 * This file is part of nymea-apikeysprovider-plugin-community.
 *
@@ -24,6 +24,7 @@
 #include "apikeysproviderstatic.h"
 #include "apikeys.h"
 
+#include <QVariant>
 #include <QJsonDocument>
 
 #include <loggingcategories.h>
