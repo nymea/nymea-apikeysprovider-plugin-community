@@ -1,3 +1,8 @@
+nymea-apikeysprovider-plugin-community (1.15.1) noble; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Sat, 06 Jun 2026 21:09:00 +0200
+
 nymea-apikeysprovider-plugin-community (1.15.0) noble; urgency=medium
 
   [ Simon Stürz ]
